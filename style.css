@@ -90,10 +90,12 @@ a:hover {
         padding: 0;
         background: transparent;
     }
-    .fa-li{ 
-        font-size: 2rem;
-        
-    }
+    .grid-wrapper {
+    flex-direction: column;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 10px;
+    background-color: crimson;
+}
 }
 .logo{
     width: 45%;
@@ -105,7 +107,7 @@ a:hover {
     margin-left auto, automatically creates a max left margin to the div
 */
 .push {
-    float: right;
+    margin-right: auto;
 }
 
 /*
@@ -187,7 +189,7 @@ As described at top of page, we want to create a grid of blocks so we'll use gri
     Finally, we set a grid gap of 20px (padding like)
 */
 .grid-wrapper {
-    flex-direction: column;
+    display:grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 10px;
     background-color: crimson;
