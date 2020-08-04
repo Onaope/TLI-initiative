@@ -6,15 +6,14 @@
   <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script>
-   $(document).ready(function () {
-    $(window).scroll(function () {
-        if($(this).scrollTop() > 500) {
-            $('.sticky').addClass('solid');
-        } else {
-            $('.sticky').removeClass('solid');
-        }
-    })
-})
+  window.onscroll = function(){
+    if (window.pageYOffset > 100){
+        document.getElementById('nav').style.background = "#eee8aa";
+    }
+    else{
+       document.getElementById('nav').style.background = "transparent"; 
+    }
+}
   </script>
   <script src="https://kit.fontawesome.com/52655011fc.js" crossorigin="anonymous"></script>
  </head> 
