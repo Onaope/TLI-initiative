@@ -84,11 +84,27 @@ a:hover {
 /*
     When changing width size we see some nav cut, so we need to modify how it'll look when the width is smaller
 */
-@media only screen and (max-width: 600px) {
-    .main-nav {
+@media only screen and (max-width: 768px) {
+  nav, .main-nav {
+        flex-direction:column;
+    }
+    .main-nav{
+        display:none;
         font-size: 1rem;
         padding: 0;
         background: transparent;
+    }
+    .menu{
+        margin-left:0;
+    }
+    nav-ToggleShow{
+        display:flex;
+    }
+    .navtoggle{
+        align-self:flex-end;
+        display:initial;
+        position:absolute;
+        cursor:pointer;
     }
     .grid-wrapper {
     flex-direction: column;
