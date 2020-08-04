@@ -97,10 +97,11 @@ a:hover {
         background: transparent;
     }
     .menu{
+        display:none;
         margin-left:0;
     }
     navToggleShow{
-        display:flex;
+        display:grid;
     }
     .navToggle{
         align-self:flex-end;
