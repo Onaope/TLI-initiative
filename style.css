@@ -90,6 +90,10 @@ a:hover {
         padding: 0;
         background: transparent;
     }
+    .fa-li{ 
+        font-size: 2rem;
+        
+    }
 }
 .logo{
     width: 45%;
