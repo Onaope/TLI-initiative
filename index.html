@@ -3,9 +3,19 @@
  <head> 
   <title>Basic LP Layout</title> 
   <link rel="stylesheet" type="text/css" href="style.css"> 
-  <script type="text/javascript" src="./script.js"></script>
   <link rel="stylesheet" href="https://cdjns.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+   $(document).ready(function () {
+    $(window).scroll(function () {
+        if($(this).scrollTop() > 500) {
+            $('.sticky').addClass('solid');
+        } else {
+            $('.sticky').removeClass('solid');
+        }
+    })
+})
+  </script>
   <script src="https://kit.fontawesome.com/52655011fc.js" crossorigin="anonymous"></script>
  </head> 
  <body> 
