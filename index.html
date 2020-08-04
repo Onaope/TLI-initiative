@@ -4,10 +4,11 @@
   <title>TLI Initiative</title> 
   <link rel="stylesheet" type="text/css" href="./style.css"> 
   <script>
+   var nav = document.getElementById('nav');
       window.onscroll = function(){
     if (window.pageYOffset > 100){
-        document.getElementById('nav').style.background = "#eee8aa";
-      document.getElementById('nav').style.boxShadow = "rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px";
+       nav.style.background = "#eee8aa";
+      nav.style.boxShadow = "rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px";
     }
     else{
        document.getElementById('nav').style.background = "transparent"; 
