@@ -272,7 +272,7 @@ footer p {
 .contact ul{
     list-style-type: none;
 }
-.fa-li{
+.far, .fas{
     font-size: 2rem;
     padding: 20px;
     margin-right: 20px;
