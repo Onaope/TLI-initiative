@@ -101,7 +101,7 @@ a:hover {
         margin-left:0;
     }
     navToggleShow{
-        display:grid;
+        display:flex;
     }
     .navToggle{
         align-self:flex-end;
@@ -258,7 +258,11 @@ button {
     color: white;
     padding: 10px;
     width: 100%;
-    top:90%;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:auto;
 }
 h1{
       text-align: center;
