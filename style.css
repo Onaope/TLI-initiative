@@ -87,7 +87,7 @@ a:hover {
 /*
     When changing width size we see some nav cut, so we need to modify how it'll look when the width is smaller
 */
-@media only screen and (max-width: 768px) {
+@media (max-width: 768px) {
   nav, .main-nav {
         flex-direction:column;
     }
@@ -259,9 +259,6 @@ button {
     padding: 10px;
     width: 100%;
     bottom:0;
-    left:0;
-    right:0;
-    margin:auto;
 }
 h1{
       text-align: center;
