@@ -92,7 +92,6 @@ a:hover {
         flex-direction:column;
     }
     .main-nav{
-        display:none;
         font-size: 1rem;
         padding: 0;
         background: transparent;
