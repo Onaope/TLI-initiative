@@ -230,7 +230,7 @@ We just want to manipulate images within the class box, so we set it with the be
  */
 button {
     cursor: pointer;
-    background: gray;
+    background: crimson;
     border: 0;
     font-size: 1rem;
     color: white;
@@ -238,13 +238,15 @@ button {
     width: 100%;
 }
 h1{
-  text-align: center;
+      text-align: center;
   margin: 10px;
 }
 
 button:hover {
-    background-color: lightgrey;
-    }
+    background-color: crimson;
+    opacity: 0.9;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+}
     .officials{
         border-radius: 60px;
         width: 40%;
@@ -266,15 +268,9 @@ footer {
 footer p {
     font-size: 1rem;
 }
-.phone{
-    width:25%;
-    list-style-image: url('https://i.ibb.co/WsL5g66/mobile-phone.png');
-    list-style-type: none;
-}
 .contact ul{
-    list-style: none;
+    list-style-type: none;
 }
 .icons{
     font-size: 10px;
 }
-    
