@@ -271,6 +271,7 @@ footer p {
 .contact ul{
     list-style-type: none;
 }
-.icons{
+.fa-li{
     font-size: 10px;
+    margin-right: 10px;
 }
