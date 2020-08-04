@@ -273,6 +273,7 @@ footer p {
     list-style-type: none;
 }
 .fa-li{
-    font-size: 10px;
+    font-size: 2rem;
+    padding: 20px;
     margin-right: 20px;
 }
