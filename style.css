@@ -55,13 +55,10 @@ nav ul li a:hover{
     color: black;
     font-size: 2rem;
     transition: all 0.3s linear;
-}
-
-.zone:hover {
+     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -webkit-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
 
 /***********************************************************************
@@ -273,5 +270,5 @@ footer p {
 }
 .fa-li{
     font-size: 10px;
-    margin-right: 10px;
+    margin-right: 20px;
 }
