@@ -12,7 +12,7 @@ body{
     transition: palegoldenrod 0.2s ease 0s;
     box-shadow: 0 0 4px grey;
 }
-nav ul li{
+li{
   list-style-type: none;
   padding-top: 10px;
     font-size: 1.5vh;
@@ -24,7 +24,7 @@ width:20%;
 }
 nav ul h1{
  padding-top: 10px;
-    font-size: 1.5vh;
+    font-size: 2.6vh;
     padding: 20px;
 }
 
@@ -128,7 +128,7 @@ button{
   }
     nav ul h1{
      padding-top: 5px;
-    font-size: 1vh;
+    font-size: 1.8vh;
     padding: 10px;
     }
   
@@ -136,7 +136,7 @@ nav ul li  a{
     display: block;
   }
   
- nav ul li{
+ li{
     margin: 0;
   }
   
