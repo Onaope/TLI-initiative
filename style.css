@@ -130,7 +130,7 @@ nav ul li  a{
     margin: 0;
   }
   
-.button{
+button{
     display: block;
     
     padding: 2vw;
@@ -150,7 +150,7 @@ nav ul li  a{
 }
 }
 .logo{
-    width: 45%;
+    width: 15%;
     
 }
 
@@ -283,7 +283,7 @@ We just want to manipulate images within the class box, so we set it with the be
 /*
     Finally, we set the button design that appears within each card.
  */
-button {
+.learn {
     cursor: pointer;
     background: crimson;
     border: 0;
@@ -298,7 +298,7 @@ h1{
   margin: 10px;
 }
 
-button:hover {
+.learn:hover {
     background-color: crimson;
     color: palegoldenrod;
     opacity: 0.9;
