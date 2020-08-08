@@ -14,16 +14,17 @@ body{
 }
 nav ul li{
   list-style-type: none;
-  margin: 2vw 0;
-  
-  font-size: 3vh;
+  padding-top: 10px;
+    font-size: 1.5vh;
+    padding: 20px;
+}
+.logo{
+width:20%;
 }
 
 nav ul li a{
   text-decoration: none;
   color: black;
-  font-family: monospace;
-
   padding: 2vw;
 }
 
@@ -40,12 +41,12 @@ nav ul{
   display: flex;  
 }
 
-.button{
+button{
   display: none;
 }
 
  nav ul li a:hover{
-  background-color: palegoldenrod;
+  background-color: crimson;
 }
 .menu{
  display: flex;
@@ -102,9 +103,7 @@ nav ul{
     font-size: 1rem;
 }
 
-a:hover {
-    color: crimson;
-}
+
 
 /*
     When changing width size we see some nav cut, so we need to modify how it'll look when the width is smaller
