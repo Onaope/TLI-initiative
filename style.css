@@ -13,17 +13,39 @@ body{
     box-shadow: 0 0 4px grey;
 }
 nav ul li{
-    padding-top:10px;
-    padding: 20px;
+  list-style-type: none;
+  margin: 2vw 0;
+  
+  font-size: 3vh;
 }
-nav ul li:hover{
-    background-color: crimson;
+
+nav ul li a{
+  text-decoration: none;
+  color: black;
+  font-family: monospace;
+
+  padding: 2vw;
 }
-nav ul li a:hover{
-    color: white;
+
+nav{
+  width: 100vw;
+  background: transparent;
 }
-.navToggle{
-display: none;
+
+nav ul{
+  display: block;
+  margin: 0;
+  padding: 0;
+  
+  display: flex;  
+}
+
+.button{
+  display: none;
+}
+
+ nav ul li a:hover{
+  background-color: palegoldenrod;
 }
 .menu{
  display: flex;
@@ -96,19 +118,30 @@ a:hover {
         padding: 0;
         background: transparent;
     }
-    .menu{
-        display:none;
-        margin-left:0;
-    }
-    navToggleShow{
-        display:flex;
-    }
-    .navToggle{
-        align-self:flex-end;
-        display:initial;
-        position:absolute;
-        cursor:pointer;
-    }
+    nav  ul{
+    flex-direction: column;
+  }
+  
+nav ul li  a{
+    display: block;
+  }
+  
+ nav ul li{
+    margin: 0;
+  }
+  
+.button{
+    display: block;
+    
+    padding: 2vw;
+    font-size: 3vh;
+    background-color: crimson;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    
+    align-self: flex-start;
+  }
     .grid-wrapper {
     flex-direction: column;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
