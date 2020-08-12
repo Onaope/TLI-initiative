@@ -47,7 +47,7 @@ nav ul{
   display: flex;  
 }
 
-button{
+.button{
   display: none;
 }
 
@@ -115,22 +115,22 @@ button{
     When changing width size we see some nav cut, so we need to modify how it'll look when the width is smaller
 */
 @media (max-width: 768px) {
-  nav, .main-nav {
-        flex-direction:column;
+ nav, .main-nav {
+      flex-direction:column;
     }
-    .main-nav{
-        font-size: 1rem;
-        padding: 0;
-        background: transparent;
+ .main-nav{
+      font-size: 1rem;
+      padding: 0;
+      background: transparent;
     }
-    nav  ul{
+ nav  ul{
     flex-direction: column;
-  }
-    nav ul h1{
-     padding-top: 5px;
+   }
+ nav ul h1{
+    padding-top: 5px;
     font-size: 1.8vh;
     padding: 10px;
-    }
+  }
   
 nav ul li  a{
     display: block;
@@ -139,28 +139,31 @@ nav ul li  a{
  li{
     margin: 0;
   }
-  
-button{
-    display: block;
-    
+.button{
+    display: block;  
     padding: 2vw;
     font-size: 3vh;
-    background-color: crimson;
+    background-color: palegoldenrod;
     border: none;
     outline: none;
     cursor: pointer;
-    
+    color:crimson;
     align-self: flex-start;
   }
-    .grid-wrapper {
+  .button:hover{
+    background-color: crimson;
+    color: palegoldenrod;
+    opacity: 0.9;
+    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
+  }
+  .grid-wrapper {
     flex-direction: column;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 10px;
     background-color: crimson;
-}
-    .logo{
-    width: 15%;
-    
+ }
+ .logo{
+    width: 15%;  
 }
 }
 
