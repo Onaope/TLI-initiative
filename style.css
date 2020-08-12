@@ -38,7 +38,7 @@ nav ul li a{
     width:18.5%;
 }
 nav ul h1{
-    padding-top: 50px;
+    padding-top: 60px;
     font-size: 2.8vh;
     text-align: center;
 }
@@ -64,8 +64,7 @@ nav ul li  a{
  nav ul li{
     margin: 0;
   }
-  nav ul h1{
-    padding-top: 10px;
+ nav ul h1{
     font-size: 2.8vh;
     text-align: center;
 }
@@ -85,8 +84,8 @@ nav ul li  a{
     color: palegoldenrod;
     opacity: 0.9;
     box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  }
-    .fa-li{ 
+  } 
+ .fa-li{ 
         font-size: 2rem;  
     }
 }
@@ -283,8 +282,7 @@ We just want to manipulate images within the class box, so we set it with the be
     bottom:0;
 }
 h1{
-      text-align: center;
-  margin: 10px;
+  text-align: center;
 }
 
 .learn:hover {
