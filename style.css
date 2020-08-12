@@ -49,6 +49,10 @@ nav ul li a:hover{
     background-color: crimson;
 }
 @media only screen and (max-width: 720px) {
+nav{
+    width: 100vw;
+    background: palegoldenrod;
+}
 nav  ul{
     flex-direction: column;
   }
@@ -69,8 +73,8 @@ nav ul li  a{
     border: none;
     outline: none;
     cursor: pointer;
-    color:crimson;
-    align-self: flex-start;
+    color: crimson;
+    align-self: flex-end;
   }
 .button:hover{
     background-color: crimson;
