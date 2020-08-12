@@ -38,9 +38,8 @@ nav ul li a{
     width:18.5%;
 }
 nav ul h1{
-    padding-top: 20px;
-    font-size: 2.6vh;
-    padding: 20px;
+    padding-top: 35px;
+    font-size: 2.8vh;
     text-align: center;
 }
 .button{
@@ -140,7 +139,7 @@ nav ul li  a{
  .main-nav{
       font-size: 1rem;
       padding: 0;
-      background: transparent;
+      background: palegoldenrod;
     }
   .fa-li{ 
         font-size: 2rem;
@@ -237,7 +236,7 @@ As described at top of page, we want to create a grid of blocks so we'll use gri
     display:grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 10px;
-    background-color: crimson;
+    background-color: palegoldenrod;
 }
 
 /*
@@ -312,7 +311,7 @@ h1{
 footer {
     text-align: center;
     padding: 3px;
-    background-color: goldenrod;
+    background-color: crimson;
 }
 
 footer p {
