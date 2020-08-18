@@ -1,4 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+html,
+body,
+header,
+#intro,
+#outro
+{
+    height: 100%;
+}
+
+#intro {
+    background: url("https://i.ibb.co/bJbHZt0/TLI-39.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.top-nav-collapse {
+    background-color: #24355C;
+  }
+  @media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
+  @media (min-width: 800px) and (max-width: 850px) {
+    .navbar:not(.top-nav-collapse) {
+      background-color: #24355C;
+    }
+  }
 html{
     scroll-behavior: smooth; 
 }
@@ -7,95 +36,16 @@ body{
     font-family: 'Nunito', sans-serif;
     background-color: palegoldenrod;
 }
+
 .sticky.solid{
     background-color: palegoldenrod;
     transition: palegoldenrod 0.2s ease 0s;
     box-shadow: 0 0 4px grey;
 }
-nav{
-    width: 100vw;
-    background: transparent;
-}
 
-nav ul{
-    display: block;
-    margin: 0;
-    padding: 0;
-    display: flex;  
-}
-nav ul li{
-    list-style-type: none;
-    margin: 2vw 0;
-    font-size: 3vh;
-}
-nav ul li a{
-    text-decoration: none;
-    color: black;
-    font-family:'Nunito', sans-serif;
-    padding: 2vw;
-}
-.logo{
-    width:18.5%;
-}
-nav ul h1{
-    padding-top: 60px;
-    font-size: 2.8vh;
-    text-align: center;
-}
-.button{
-    display: none;
-}
-nav ul li a:hover{
-    background-color: crimson;
-}
-@media only screen and (max-width: 720px) {
-nav{
-    width: 100vw;
-    background: palegoldenrod;
-}
-nav  ul{
-    flex-direction: column;
-  }
-  
-nav ul li  a{
-    display: block;
-  }
-  
- nav ul li{
-    margin: 0;
-  }
- nav ul h1{
-    font-size: 2.8vh;
-    text-align: center;
-}
-.button{
-    display: block;
-    padding: 2vw;
-    font-size: 3vh;
-    background-color: palegoldenrod;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    color: crimson;
-    align-self: flex-end;
-  }
-.button:hover{
-    background-color: crimson;
-    color: palegoldenrod;
-    opacity: 0.9;
-    box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
-  } 
  .fa-li{ 
         font-size: 2rem;  
     }
-}
-.menu{
-    display: flex;
-    margin-left: auto;
-}
-#menu{
-    padding-top:30px;
-}
 .gift{
     width: 100%;
     height: auto;
@@ -127,32 +77,7 @@ nav ul li  a{
     -moz-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
     -o-box-shadow:rgba(0,0,0,0.8) 0px 5px 15px, inset rgba(0,0,0,0.15) 0px -10px 20px;
 }
-/***********************************************************************
- *  Nav Bar
- **********************************************************************/
-/* 
-    use flex so we have one direction row as needed for header.
-    since creating <nav> we want to remove the dots (list-style).
-    again, we want to remove set margin by div and reset it so margin: 0
-*/
-.main-nav {
-    /* creates a */
-    display: flex;
-    list-style: none;
-    margin: 0;
-    font-size: 1rem;
-}
-/*
-    this pushes 'contact' all the way to the right.
-    margin-left auto, automatically creates a max left margin to the div
-*/
-.push {
-    margin-right: auto;
-}
-
-/*
-    After setting above styles we see that all nav list items are close together.
-    So we want to create a padding between them.
+reate a padding between them.
 */
 .values li, .audience li, .contact li {
     font-size: 1rem;
@@ -205,19 +130,7 @@ so this will automatically change this as well
 /*
     We'd like the text to appear in the center of the image and above it.
  */
-.coverText {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    color: black;
-    font-weight: bold;
-}
 
-.coverText > h1 {
-    color: white;
-    font-size: 40px;
-}
 
 /***********************************************************************
  *  Body card grid
